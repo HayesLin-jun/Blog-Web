@@ -47,3 +47,4 @@ app.post('/add', (req, res) => {
 });
 
 app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));
+// Feature: comment system coming soon
