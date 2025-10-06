@@ -1,0 +1,9 @@
+<%- include('layout', { body: `
+  <h2>Create New Post</h2>
+  <form action="/add" method="POST">
+    <input type="text" name="title" placeholder="Title" required>
+    <textarea name="content" placeholder="Write your post..." required></textarea>
+    <button type="submit">Publish</button>
+  </form>
+  <a href=" ">Back</a >
+` }) %>

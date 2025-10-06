@@ -1,0 +1,11 @@
+<%- include('layout', { body: `
+  <a href=" ">+ Create New Post</a >
+  <ul>
+    ${posts.map(p => `
+      <li>
+        <h2>${p.title}</h2>
+        <p>${p.content}</p >
+        <small>${p.date}</small>
+      </li>`).join('')}
+  </ul>
+` }) %>
